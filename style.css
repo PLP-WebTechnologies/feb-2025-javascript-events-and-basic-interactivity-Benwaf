@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+}
+
+#secretBox {
+  width: 200px;
+  height: 100px;
+  background-color: lightgray;
+  line-height: 100px;
+  text-align: center;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  margin: 5px 0 15px 0;
+}
+
+.accordion-title {
+  cursor: pointer;
+  background-color: #eee;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.feedback {
+  font-size: 0.9rem;
+  color: red;
+}
